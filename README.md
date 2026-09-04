@@ -1,203 +1,163 @@
 # 👋 Hi, I'm Samir Shaikh
 
-### AWS & DevOps Intern | Linux | AWS | Docker | Jenkins | Terraform | Kubernetes | CI/CD
+### AWS Cloud & DevOps Engineer | Linux | AWS | Docker | Kubernetes | Terraform | Jenkins | CI/CD
 
-I'm an **AWS & DevOps Intern** with hands-on training and practical experience in **Linux, AWS Cloud, and DevOps**.
+AWS Cloud & DevOps Engineer with hands-on experience in **AWS Cloud, Linux Administration, CI/CD automation, containerization, and Infrastructure as Code**.
 
-I completed my **Linux, AWS & DevOps training at Full Stack Academy, Hyderabad**, where I worked on hands-on labs and projects covering cloud infrastructure, deployment, automation, containerization, CI/CD, and DevOps tools.
+I have worked on practical projects involving **AWS infrastructure, networking, Linux administration, Jenkins CI/CD pipelines, Docker, Kubernetes, Terraform, Git, and GitHub**.
 
-Currently building and improving practical projects to strengthen my skills in **AWS Cloud, Docker, Jenkins, Terraform, Kubernetes, CI/CD, Linux Administration, and Cloud Automation**.
-
----
-
-## 🚀 About Me
-
-* 💼 **AWS & DevOps Intern**
-* ☁️ Completed **AWS Cloud & DevOps training**
-* 🐧 Hands-on experience with **Linux Administration**
-* 🔧 Practical experience with **AWS infrastructure and services**
-* 🐳 Hands-on practice with **Docker and containerization**
-* 🔄 Built **CI/CD pipelines using Jenkins**
-* 🏗️ Practiced **Infrastructure as Code using Terraform**
-* ☸️ Practiced **Kubernetes container orchestration**
-* 🔀 Comfortable with **Git & GitHub**
-* 📜 Completed a **6-month AWS & DevOps internship program**
-* 🎯 Aspiring **AWS Cloud & DevOps Engineer**
+Currently focused on building practical cloud and DevOps projects and strengthening my skills in **AWS, Linux, automation, containerization, CI/CD, and cloud infrastructure**.
 
 ---
 
 ## 🛠️ Technical Skills
 
 ### ☁️ AWS Cloud
-
 `EC2` `S3` `IAM` `VPC` `RDS` `EBS` `EFS` `Route 53`
 
-`Application Load Balancer` `Auto Scaling` `CloudWatch` `SNS`
-
-`Lambda` `Elastic Beanstalk`
+`Application Load Balancer` `Auto Scaling` `CloudWatch` `SNS` `Lambda` `Elastic Beanstalk`
 
 ### ⚙️ DevOps
+`Jenkins` `Docker` `Kubernetes` `Terraform` `Maven`
 
-`Docker` `Jenkins` `Maven` `Terraform` `Kubernetes`
-
-`CI/CD` `Infrastructure as Code`
+`CI/CD` `Infrastructure as Code (IaC)` `Git` `GitHub`
 
 ### 🐧 Linux
+`Linux` `Ubuntu` `Bash` `Shell Scripting`
 
-`Linux Administration` `Ubuntu` `Shell Commands` `Shell Scripting`
-
-### 🔧 Version Control
-
-`Git` `GitHub`
-
-### 💻 Programming / Scripting
-
-`Shell Scripting` `Python` `HTML` `CSS` `JavaScript`
+Linux administration, user management, permissions, process management, networking, monitoring, logging, and automation.
 
 ---
 
-## 📌 Featured Projects
+## 🚀 Featured Projects
 
-### ☁️ AWS Highly Available Web Application
+### 1. ☁️ AWS ALB Zero Downtime Deployment Using Weighted Target Groups
 
-Designed and deployed a highly available web application using AWS infrastructure.
+Implemented a zero-downtime deployment strategy using **AWS Application Load Balancer and weighted target groups**.
 
 **Technologies:**
-`AWS` `EC2` `VPC` `AMI` `Launch Template` `Auto Scaling` `ALB` `CloudWatch`
 
-**Implemented:**
+`AWS EC2` `Application Load Balancer` `Target Groups` `Weighted Routing` `HTTP/HTTPS` `AWS Networking`
 
-* VPC and subnet configuration
-* EC2 instances
-* AMI creation
-* Launch Templates
-* Auto Scaling Group
-* Application Load Balancer
-* CloudWatch monitoring
+**Key Work:**
+
+- Configured multiple EC2-based application environments
+- Configured ALB target groups and health checks
+- Implemented weighted traffic routing
+- Practiced controlled traffic shifting between application versions
+- Applied Blue-Green deployment concepts
+
+🔗 **GitHub Repository:**  
+https://github.com/samir-shaikh7/aws-alb-zero-downtime-deployment
 
 ---
 
-### 🐳 Dockerized Web Application
+### 2. 🔄 Enterprise Java DevOps CI/CD Pipeline on AWS
 
-Containerized a web application using Docker and created an isolated and reproducible application environment.
-
-**Technologies:**
-`Docker` `Dockerfile` `Docker Compose` `Linux`
-
-**Implemented:**
-
-* Docker images
-* Containers
-* Dockerfile
-* Port mapping
-* Docker volumes
-* Docker networks
-* Docker Compose
-* Container lifecycle management
-
----
-
-### 🔄 Jenkins CI/CD Pipeline
-
-Built a CI/CD pipeline to automate application build and deployment.
+Built an end-to-end CI/CD pipeline for a Maven-based Java web application.
 
 **Technologies:**
-`Jenkins` `Git` `GitHub` `Maven` `AWS` `Linux`
+
+`Jenkins` `Maven` `GitHub` `SonarQube` `AWS EC2` `Amazon S3` `Tomcat`
 
 **Pipeline:**
 
-`GitHub → Jenkins → Build → Test → Package → Deploy`
+`GitHub → Jenkins → Build → Code Analysis → Package → S3 → Deploy`
 
-**Implemented:**
+**Key Work:**
 
-* Jenkins configuration
-* GitHub integration
-* Maven build
-* Automated build process
-* Deployment automation
-* Jenkins Pipeline
-* Jenkinsfile
+- Automated source code checkout and Maven build
+- Integrated SonarQube code analysis and quality gates
+- Generated WAR packages
+- Stored application artifacts in Amazon S3
+- Configured Tomcat deployment
+- Implemented Jenkins credentials and AWS IAM-based access
+
+🔗 **GitHub Repository:**  
+https://github.com/samir-shaikh7/enterprise-java-devops-cicd
 
 ---
 
-### 🏗️ AWS Infrastructure with Terraform
+### 3. 🏗️ AWS Three-Tier Web Application Architecture
 
-Provisioned AWS infrastructure using Infrastructure as Code.
+Designed and implemented a secure three-tier architecture on AWS using separate application and database layers.
 
 **Technologies:**
-`Terraform` `HCL` `AWS`
 
-**Implemented:**
+`AWS VPC` `EC2` `ALB` `RDS` `NAT Gateway` `Security Groups` `Route Tables`
 
-* Terraform providers
-* AWS resources
-* Variables
-* Outputs
-* Terraform state
-* Infrastructure provisioning
-* Infrastructure destruction
+**Key Work:**
+
+- Created VPC with public and private subnets
+- Configured Internet Gateway and NAT Gateway
+- Deployed EC2 application servers
+- Configured Application Load Balancer
+- Integrated Amazon RDS MySQL
+- Configured Security Groups and routing
+- Implemented private database access
+
+🔗 **GitHub Repository:**  
+https://github.com/samir-shaikh7/AWS-Three-Tier-Web-Application
 
 ---
 
-### ☸️ Kubernetes Application Deployment
+### 4. 🐧 Linux System Administration & DevOps Project
 
-Deployed a containerized application using Kubernetes.
+Practiced Linux system administration and DevOps-related operational tasks using Ubuntu/Linux.
+
+**Key Areas:**
+
+- User and group management
+- File and directory management
+- Permissions and ownership
+- Process management
+- Networking
+- Log management
+- Cron jobs
+- Shell scripting
+- Resource monitoring
+- Basic automation
+
+🔗 **GitHub Repository:**  
+https://github.com/samir-shaikh7/linux-system-administration-project
+
+---
+
+## 🌐 Additional Projects
+
+### 🍽️ Filipino Food Kuwait — Restaurant Ordering Platform
+
+Developed a modern restaurant ordering platform using:
+
+`React` `TypeScript` `Tailwind CSS` `Supabase` `Vercel`
+
+Features included menu management, ordering functionality, admin management, responsive UI, and backend integration.
+
+🔗 Live Project: https://filipinofood.online
+
+---
+
+### 💄 Soniya Patange Makeover — Bridal Makeup & Academy Website
+
+Developed and deployed a premium business website using modern web technologies and AI-assisted development workflows.
 
 **Technologies:**
-`Docker` `Kubernetes` `YAML` `Linux`
 
-**Implemented:**
-
-* Pods
-* Deployments
-* Services
-* ReplicaSets
-* ConfigMaps
-* Namespaces
-* Application scaling
-* Rolling updates
+`React` `TypeScript` `Tailwind CSS` `Supabase` `Vercel`
 
 ---
 
-## ☁️ AWS Hands-on Experience
+## 📚 Currently Working With
 
-Practical work with:
-
-* EC2
-* S3
-* IAM
-* VPC
-* Public & Private Subnets
-* NAT Gateway
-* RDS
-* EBS
-* EFS
-* Route 53
-* AMI
-* Launch Templates
-* Auto Scaling Groups
-* Load Balancers
-* CloudWatch
-* SNS
-* Lambda
-* Elastic Beanstalk
-
----
-
-## ⚙️ DevOps Hands-on Experience
-
-* Linux Administration
-* Git & GitHub
-* Shell Scripting
-* Jenkins
-* Maven
-* CI/CD
-* Docker
-* Docker Compose
-* Terraform
-* Kubernetes
-* AWS Deployment
-* Infrastructure as Code
+- ☁️ AWS Cloud Infrastructure
+- 🐧 Linux Administration
+- 🔄 CI/CD Automation
+- 🐳 Docker & Containerization
+- ☸️ Kubernetes
+- 🏗️ Terraform & Infrastructure as Code
+- 🔧 Git & GitHub
+- 📜 Shell Scripting
+- 📊 Cloud Monitoring & Troubleshooting
 
 ---
 
@@ -205,60 +165,32 @@ Practical work with:
 
 ### Full Stack Academy — Hyderabad
 
-**AWS & DevOps Training + Internship**
+**AWS & DevOps Internship**
 
-* Completed comprehensive training in **Linux, AWS Cloud, and DevOps**
-* Worked on hands-on AWS infrastructure and DevOps labs
-* Practiced CI/CD automation
-* Worked with Docker and containerization
-* Practiced Infrastructure as Code using Terraform
-* Practiced Kubernetes
-* Completed a **6-month internship program**
+Hands-on training and practical work covering:
+
+`AWS` `Linux` `Jenkins` `Docker` `Kubernetes` `Terraform` `Git` `CI/CD`
 
 ---
 
-## 🏆 Certifications
+## 🏆 Certifications & Learning
 
-* AWS Certified Cloud Practitioner
-
----
-
-## 📚 Core Areas
-
-```text
-Linux Administration
-        ↓
-AWS Cloud
-        ↓
-Git & GitHub
-        ↓
-Docker
-        ↓
-Jenkins & CI/CD
-        ↓
-Terraform
-        ↓
-Kubernetes
-        ↓
-Cloud & DevOps Automation
-```
+- AWS Cloud Practitioner Essentials
+- AWS & DevOps Training
+- Linux Challenge Completion
+- AWS Challenge Completion
+- Generative AI with AWS
 
 ---
 
-## 🎯 Career Objective
+## 📫 Connect With Me
 
-I'm looking for opportunities to start and grow my career as an **AWS Cloud & DevOps Engineer**, where I can apply my hands-on knowledge of **Linux, AWS, Docker, Jenkins, Terraform, Kubernetes, Git, and CI/CD** while continuing to develop my technical skills.
-
----
-
-## 🤝 Connect With Me
-
-**GitHub:**
-https://github.com/samir-shaikh7
-
-**LinkedIn:**
+**LinkedIn:**  
 https://www.linkedin.com/in/samir-shaikh7/
 
+**GitHub:**  
+https://github.com/samir-shaikh7/
+
 ---
 
-⭐ Thanks for visiting my GitHub profile!
+⭐ Thanks for visiting my profile!
