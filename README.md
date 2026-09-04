@@ -145,6 +145,8 @@ Developed and deployed a premium business website using modern web technologies 
 
 `React` `TypeScript` `Tailwind CSS` `Supabase` `Vercel`
 
+🔗 Live Project: https://www.soniyapatangemakeups.in
+
 ---
 
 ## 📚 Currently Working With
